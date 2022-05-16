@@ -31,9 +31,18 @@ export async function logout() {
 
 export async function redirectIfLoggedIn() {
     if (getUser()) {
-        location.replace('./logged-in/index.html');
+        location.replace('../logged-in/index.html');
     }
 }
 
+export async function getState() {
+    const resp = await client.from('Colorado').select('*');
+    return resp.data;
+}
+export async function getStateById(id) {
+    const resp = await client.from('Colorado').select('*').match({ id }).single();
+    return resp.data;
+
+}
 
 
