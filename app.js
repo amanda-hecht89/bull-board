@@ -1,4 +1,4 @@
-import { signInUser, signUpUser } from "./fetch.utils.js";
+import { signInUser, signUpUser } from './fetch.utils.js';
 // import functions and grab DOM elements
 // let state
 const signInForm = document.getElementById('sign-in');
