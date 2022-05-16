@@ -29,5 +29,11 @@ export async function logout() {
     return (window.location.href = '/');
 }
 
+export async function redirectIfLoggedIn() {
+    if (getUser()) {
+        location.replace('./logged-in/index.html');
+    }
+}
+
 
 
