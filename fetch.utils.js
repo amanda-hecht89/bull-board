@@ -13,3 +13,15 @@ export async function signInUser(email, password) {
     return response.user;
 }  
 
+export function getUser() {
+    return client.auth.session() && client.auth.session().user;
+}
+
+export async function checkAuth() {
+    const user = getUser();
+
+    if (!user) location.replace('/');
+}
+
+
+
