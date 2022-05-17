@@ -1,4 +1,4 @@
-import { signInUser, signUpUser, redirectIfLoggedIn } from './fetch.utils.js';
+import { signInUser, signUpUser, redirectIfLoggedIn } from '../fetch-utils.js';
 // import functions and grab DOM elements
 // let state
 const signInForm = document.getElementById('sign-in');
@@ -13,7 +13,7 @@ signUpForm.addEventListener('submit', async (e) =>{
     const data = new FormData(signUpForm);
     const user = await signUpUser(data.get('email'), data.get('password'));
     if (user) {
-        location.replace('logged-in');
+        location.replace('/add-on');
     }
 });
 
@@ -22,6 +22,6 @@ signInForm.addEventListener('submit', async (e) =>{
     const data = new FormData(signInForm);
     const user = await signInUser(data.get('email'), data.get('password'));
     if (user) {
-        location.replace('logged-in');
+        location.replace('/add-on');
     }
 });

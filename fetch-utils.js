@@ -20,18 +20,18 @@ export function getUser() {
 export async function checkAuth() {
     const user = getUser();
 
-    if (!user) location.replace('/');
+    if (!user) location.replace('/sign-in-up');
 }
 
 export async function logout() {
-    await client.auth.aignOut();
+    await client.auth.signOut();
 
-    return (window.location.href = '/');
+    return (window.location.href = '/sign-in-up');
 }
 
 export async function redirectIfLoggedIn() {
     if (getUser()) {
-        location.replace('../add-on/index.html');
+        location.replace('/add-on');
     }
 }
 
