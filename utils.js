@@ -6,9 +6,15 @@ export function renderState(state) {
     h1.textContent = state.name;
 
     const p = document.createElement('p');
-    p.textContent = `At ~${state.elevation}, located in ${state.location}. With ${state.atttractions}, there is so much to do! Price is $${state.price}+.`;
+    p.textContent = `At ~${state.elevation} elevation, located in ${state.location}.`;
 
-    div.append(h1, p);
+    const p2 = document.createElement('p2');
+    p2.textContent = `With ${state.attraction}, there is so much to do!`;
+
+    const p3 = document.createElement('p3');
+    p3.textContent = ` Price is $${state.price}+.`;
+
+    div.append(h1, p, p2, p3);
     return div;
 }
 
