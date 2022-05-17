@@ -35,6 +35,12 @@ export async function redirectIfLoggedIn() {
     }
 }
 
+export async function fetchPosts() {
+    const response = await client.from('Parks-Bull').select('*');
+
+    return response.data;
+}
+
 
 
 
