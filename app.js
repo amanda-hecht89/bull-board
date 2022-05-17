@@ -1,6 +1,5 @@
 
   // get user input
-import { getState, getStateById } from './fetch.utils.js';
 import { renderState } from './utils.js';
   // use user input to update state 
 const coloradoEl = document.getElementById('colorado');
