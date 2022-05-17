@@ -41,6 +41,12 @@ export async function fetchPosts() {
     return response.data;
 }
 
+export async function createNewPost(post) {
+    const response = await client.from('Parks-Bull').insert(post);
+    if (response.data) {
+        return response.data;
+    }
+}
 
 
 
