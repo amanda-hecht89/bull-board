@@ -81,6 +81,9 @@ p {
     margin: var(--gutter);
     text-align: center;
 }
+#colorado {
+    text-align: center;
+}
   
 footer {
     position: fixed;
