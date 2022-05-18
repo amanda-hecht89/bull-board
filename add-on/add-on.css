@@ -29,7 +29,7 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
-    background-image: url(https://www.worldatlas.com/r/w1200/upload/39/f1/6e/shutterstock-231369109.jpg);
+    background-color: orange;
     background-position: 50%;
 }
 
@@ -113,8 +113,4 @@ footer {
 .post {
     background-color: bisque;
     margin: 10px;
-}
-
-.first {
-    border: 3 seagreen solid;
 }
