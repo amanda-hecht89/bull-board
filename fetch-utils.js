@@ -36,15 +36,17 @@ export async function redirectIfLoggedIn() {
 }
 
 export async function fetchPosts() {
-    const response = await client.from('Parks-Bull').select('*');
+    const response = await client.from('Parks_Bull').select('*');
 
     return response.data;
 }
 
 export async function createNewPost(post) {
-    const response = await client.from('Parks-Bull').insert(post);
+    const response = await client.from('Parks_Bull').insert(post);
     if (response.data) {
         return response.data;
+    } else {
+        console.error(response.error);
     }
 }
 

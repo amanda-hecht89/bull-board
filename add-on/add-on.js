@@ -1,4 +1,6 @@
-import { checkAuth, logout, fetchPosts } from '../fetch-utils.js';
+import { checkAuth, logout, fetchPosts, createNewPost } from '../fetch-utils.js';
+
+const form = document.getElementById('new-post');
 
 checkAuth();
 
@@ -7,17 +9,17 @@ logOutBtn.addEventListener('click', async () => {
     await logout();
 });
 
-async function onLoad() {
-    const data = await fetchPosts();
-    const myPost = data[0];
-    const createdAt = new Date(myPost.created_at);
-    const now = new Date();
-}
-
-onLoad();
-
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const data = new FormData(form);
+    const NewPost = {
+        name: data.get('name'),
+        location: data.get('location'),
+        elevation: data.get('elevation'),
+        description: data.get('description'),
+        author: data.get('author'),
+    };
+    const resp = await createNewPost(NewPost);
+    console.log(resp);
 
 });
