@@ -44,10 +44,12 @@ export async function fetchPosts() {
 export async function createNewPost(post) {
     const response = await client.from('Parks_Bull').insert(post);
     if (response.data) {
+        location.replace('/');
         return response.data;
     } else {
         console.error(response.error);
     }
+
 }
 
 

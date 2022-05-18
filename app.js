@@ -30,4 +30,3 @@ async function loadData() {
 
     }
 }
-console.log(loadData);
