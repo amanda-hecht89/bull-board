@@ -50,5 +50,10 @@ export async function createNewPost(post) {
     }
 }
 
+export async function getState() {
+    const response = await client.from('Parks_Bull').select('*');
+    return response.data;
+}
+
 
 
