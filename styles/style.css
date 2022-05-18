@@ -67,10 +67,9 @@ h1 {
     font-size: 40px;
 }
 
-h2 {
+h1 {
     font-size: 35px;
     font-weight: bold;
-    border: 4px double darkcyan;
 }
 
 h3 {
@@ -78,7 +77,7 @@ h3 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -110,7 +109,9 @@ footer {
 }
 
 .post {
-    background-color: darkcyan;
+    background-repeat:no-repeat;
+    background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
+    background-position: 50%;
     margin: 10px;
 }
 

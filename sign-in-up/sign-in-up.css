@@ -29,8 +29,9 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: orange;
+    background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
     background-position: 50%;
+    background-size: cover;
 }
 
 main {
@@ -39,7 +40,6 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
-    background-color: red;
 }
 
 section {
@@ -117,5 +117,11 @@ footer {
 }
 
 .auth-container h2 {
-    border: 3px solid seagreen;
+    back;
+}
+
+form {
+    border: 8px dotted darkcyan;
+    margin: 2px;
+    padding: 25px;
 }
