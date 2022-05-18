@@ -32,6 +32,7 @@ body {
     background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
     background-size: cover;
     background-position: 50%;
+    color: darkcyan;
 }
 
 main {
@@ -111,20 +112,51 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.post {
-    background-color: bisque;
-    margin: 10px;
-}
+
 
 #location {
-    background-color: aquamarine;
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
 }
 
 #name {
-    background-color: blue;
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
 }
 
-#new-post {
-    background-color: chartreuse;
+#elevation {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+}
+
+#description {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+}
+
+#author {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+}
+
+button {
+    background-color: darkcyan;
+    border-radius: 30%;
+    height: 75px;
+    width: 75px;
+    font-size: large;
+    
+}
+
+a {
+    font-size: 20px;
+    color: darkcyan;
+    margin: 25px;
+    
 }
 
