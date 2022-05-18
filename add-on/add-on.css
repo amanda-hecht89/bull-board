@@ -29,7 +29,8 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
-    background-color: orange;
+    background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
+    background-size: cover;
     background-position: 50%;
 }
 
@@ -114,3 +115,16 @@ footer {
     background-color: bisque;
     margin: 10px;
 }
+
+#location {
+    background-color: aquamarine;
+}
+
+#name {
+    background-color: blue;
+}
+
+#new-post {
+    background-color: chartreuse;
+}
+

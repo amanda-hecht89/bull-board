@@ -31,6 +31,7 @@ body {
     background-color: var(--color2);
     background-image: url(https://www.worldatlas.com/r/w1200/upload/39/f1/6e/shutterstock-231369109.jpg);
     background-position: 50%;
+    background-size: cover;
 }
 
 main {
@@ -67,8 +68,9 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
+    border: 4px double darkcyan;
 }
 
 h3 {
@@ -76,11 +78,8 @@ h3 {
 }
 
 p {
-    font-size: 20px;
-}
+    font-size: 25px;
 
-p2 {
-    font-size: 20px;
 }
 
 .gutter-right {
@@ -111,10 +110,11 @@ footer {
 }
 
 .post {
-    background-color: bisque;
+    background-color: darkcyan;
     margin: 10px;
 }
 
-.first {
-    border: 3 seagreen solid;
+a {
+    font-size: 25px;
+    color: darkcyan;
 }
