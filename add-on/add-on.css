@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
 body {
     /* feel free to update these css variables for a quick theme */
@@ -27,12 +28,13 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Gochi Hand', sans-serif;
     background-color: var(--color2);
     background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
     background-size: cover;
     background-position: 50%;
     color: darkcyan;
+    font-size: 30px;
 }
 
 main {
@@ -113,35 +115,39 @@ footer {
 }
 
 
-
 #location {
     border-color: darkcyan;
     border-width: 5px;
     height: 45px;
+    font-size: 20px;
 }
 
 #name {
     border-color: darkcyan;
     border-width: 5px;
     height: 45px;
+    font-size: 20px;
 }
 
 #elevation {
     border-color: darkcyan;
     border-width: 5px;
     height: 45px;
+    font-size: 20px;
 }
 
 #description {
     border-color: darkcyan;
     border-width: 5px;
     height: 45px;
+    font-size: 20px;
 }
 
 #author {
     border-color: darkcyan;
     border-width: 5px;
     height: 45px;
+    font-size: 20px;
 }
 
 button {
@@ -154,9 +160,17 @@ button {
 }
 
 a {
-    font-size: 20px;
+    font-size: 30px;
     color: darkcyan;
     margin: 25px;
     
+}
+
+#newPost {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+    padding-left: 25%;
 }
 

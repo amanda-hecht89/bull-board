@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 body {
     /* feel free to update these css variables for a quick theme */
     
@@ -27,7 +28,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Gochi Hand', sans-serif;
     background-color: var(--color2);
     background-image: url(https://www.worldatlas.com/r/w1200/upload/39/f1/6e/shutterstock-231369109.jpg);
     background-position: 50%;
