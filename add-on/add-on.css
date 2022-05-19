@@ -99,9 +99,6 @@ p {
     margin: var(--gutter);
     text-align: center;
 }
-#states {
-    text-align: center;
-}
 
 footer {
     position: fixed;
@@ -166,7 +163,7 @@ a {
     
 }
 
-#newPost {
+#new-post {
     display: flex;
     flex-direction: column;
     width: 50%;
