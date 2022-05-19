@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link rel="stylesheet" href="./sign-in-up.css">
+    <title>Document</title>
+</head>
+<main>
+    <body>
+
+        <div class="first">
+            <div class="auth-container">
+                <form id="sign-up">
+                    <h2>New Here?<br/>Sign Up!</h2>
+                    <label>Email</label><input type="email" name="email" id="signUpEmail"/>
+                    <label>Password</label><input type="password" name="password" id="signUpPassword"/>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="second">
+            <div class="auth-container">
+                <form id="sign-in">
+                    <h2>Already have an Account?<br/>Sign In!</h2>
+                    <label>Email</label><input type="email" name="email" id="signInEmail"/>
+                    <label>Password</label><input type="password" name="password" id="signInPassword"/>
+                    <button>Submit!</button>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</main>
+<script type="module" src="./sign-in-up.js"></script>
+</html>

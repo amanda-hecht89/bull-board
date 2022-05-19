@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 body {
     /* feel free to update these css variables for a quick theme */
     
@@ -30,9 +30,11 @@ body {
     
     font-family: 'Gochi Hand', sans-serif;
     background-color: var(--color2);
-    background-image: url(https://www.worldatlas.com/r/w1200/upload/39/f1/6e/shutterstock-231369109.jpg);
-    background-position: 50%;
+    background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
     background-size: cover;
+    background-position: 50%;
+    color: darkcyan;
+    font-size: 30px;
 }
 
 main {
@@ -68,8 +70,8 @@ h1 {
     font-size: 40px;
 }
 
-h1 {
-    font-size: 35px;
+h2 {
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -79,7 +81,10 @@ h3 {
 
 p {
     font-size: 20px;
+}
 
+p2 {
+    font-size: 20px;
 }
 
 .gutter-right {
@@ -94,9 +99,6 @@ p {
     margin: var(--gutter);
     text-align: center;
 }
-#states {
-    text-align: center;
-}
 
 footer {
     position: fixed;
@@ -109,14 +111,63 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.post {
-    background-repeat:no-repeat;
-    background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
-    background-position: 50%;
-    margin: 10px;
+
+#location {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+    font-size: 20px;
+}
+
+#name {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+    font-size: 20px;
+}
+
+#elevation {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+    font-size: 20px;
+}
+
+#description {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+    font-size: 20px;
+}
+
+#author {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+    font-size: 20px;
+}
+
+button {
+    background-color: darkcyan;
+    border-radius: 30%;
+    height: 75px;
+    width: 75px;
+    font-size: large;
+    
 }
 
 a {
-    font-size: 25px;
+    font-size: 30px;
     color: darkcyan;
+    margin: 25px;
+    
 }
+
+#new-post {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+    padding-left: 25%;
+}
+

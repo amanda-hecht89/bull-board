@@ -1,5 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+
 body {
     /* feel free to update these css variables for a quick theme */
     
@@ -29,10 +30,10 @@ body {
     --footer-height: 25px;
     
     font-family: 'Gochi Hand', sans-serif;
-    background-color: var(--color2);
-    background-image: url(https://www.worldatlas.com/r/w1200/upload/39/f1/6e/shutterstock-231369109.jpg);
+    background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
     background-position: 50%;
     background-size: cover;
+    color: darkcyan;
 }
 
 main {
@@ -68,8 +69,8 @@ h1 {
     font-size: 40px;
 }
 
-h1 {
-    font-size: 35px;
+h2 {
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -79,23 +80,10 @@ h3 {
 
 p {
     font-size: 20px;
-
 }
 
-.gutter-right {
-    margin-right: 20px;
-}
-
-header img {
-    height: var(--header-height);
-}
-
-p {
-    margin: var(--gutter);
-    text-align: center;
-}
-#states {
-    text-align: center;
+p2 {
+    font-size: 20px;
 }
 
 footer {
@@ -109,14 +97,39 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.post {
-    background-repeat:no-repeat;
-    background-image: url(https://media.istockphoto.com/photos/marble-rock-texture-blue-pattern-liquid-swirl-paint-white-dark-for-picture-id1208366723?k=20&m=1208366723&s=612x612&w=0&h=p4f9dyRFW1lBVzJ_MlH3k4THJhEbmJSYwc1E_S8G3jE=);
-    background-position: 50%;
-    margin: 10px;
+form {
+    margin: 2px;
+    padding: 25px;
 }
 
-a {
-    font-size: 25px;
-    color: darkcyan;
+button {
+    background-color: darkcyan;
+    border-radius: 30%;
+    height: 75px;
+    width: 75px;
+    font-size: large;
+}
+
+#signInEmail {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+}
+
+#signUpEmail {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+}
+
+#signInPassword {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
+}
+
+#signUpPassword {
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 45px;
 }
